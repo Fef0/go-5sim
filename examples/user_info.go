@@ -13,7 +13,7 @@ func main() {
 	client := fivesim.NewClient(key)
 
 	// Use this if you like the project and want to support my work
-	client.Referral = ""
+	client.Referral = "3a23a483"
 
 	// You can use this method to get a cumulative info about your user
 	// using only one API call

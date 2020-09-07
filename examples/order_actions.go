@@ -14,7 +14,7 @@ func main() {
 	client := fivesim.NewClient(key)
 
 	// Use this if you like the project and want to support my work
-	client.Referral = ""
+	client.Referral = "3a23a483"
 
 	/* WARNING THIS FILE SHOULD NOT BE EXECUTED AS IS*/
 	// Finish an order
