@@ -16,8 +16,8 @@ type Products map[string]Product
 type UserInfo struct {
 	ID      int     `json:"id"`
 	Email   string  `json:"email"`
-	Balance float32 `json:"balance"`
-	Rating  int     `json:"rating"`
+	Balance float64 `json:"balance"`
+	Rating  float64  `json:"rating"`
 }
 
 // SMS represents info about an incoming SMS
