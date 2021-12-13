@@ -201,7 +201,7 @@ func (c *Client) GetID() (int, error) {
 }
 
 // GetRating returns user's rating
-func (c *Client) GetRating() (int, error) {
+func (c *Client) GetRating() (float32, error) {
 	info, err := c.GetUserInfo()
 	if err != nil {
 		return 0, err

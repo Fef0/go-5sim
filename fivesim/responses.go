@@ -17,7 +17,7 @@ type UserInfo struct {
 	ID      int     `json:"id"`
 	Email   string  `json:"email"`
 	Balance float32 `json:"balance"`
-	Rating  int     `json:"rating"`
+	Rating  float32  `json:"rating"`
 }
 
 // SMS represents info about an incoming SMS
