@@ -171,7 +171,7 @@ func (c *Client) GetUserInfo() (*UserInfo, error) {
 }
 
 // GetBalance returns user's balance
-func (c *Client) GetBalance() (float64, error) {
+func (c *Client) GetBalance() (float32, error) {
 	info, err := c.GetUserInfo()
 	if err != nil {
 		return 0.0, err
@@ -201,7 +201,7 @@ func (c *Client) GetID() (int, error) {
 }
 
 // GetRating returns user's rating
-func (c *Client) GetRating() (float64, error) {
+func (c *Client) GetRating() (float32, error) {
 	info, err := c.GetUserInfo()
 	if err != nil {
 		return 0, err
